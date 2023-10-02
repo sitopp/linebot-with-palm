@@ -2,6 +2,7 @@
 
 ## 仕様
 
+
 - Line botからGoogleのLLM"PaLM"を呼び出して、ユーザーの書き込みにAIが回答するようにします。
   - 日本語対応、
   - チャットモデルはchat-bison@001です
@@ -11,6 +12,8 @@
   - Googleの`vertexai`ライブラリを使ってPaLMをリクエストするコードを追加
   - Cloud Run上で動かすために、IPアドレスやPort指定を追加
 
+
+<img src="./images/diagram.jpg" width="30%">
 
 
 ## 使い方
@@ -93,4 +96,6 @@ Service URL: https://line-bot-gcp-01-hogehogehoge-uc.a.run.app ←これをコ�
 LINEトークアプリから適当に話しかけてください。
 <br>例)
 <br><img src="./images/line.jpg" width="30%">
+
+
 
