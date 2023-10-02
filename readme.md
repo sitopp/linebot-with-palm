@@ -13,7 +13,7 @@
   - Cloud Run上で動かすために、IPアドレスやPort指定を追加
 
 
-<img src="./images/diagram.jpg" width="30%">
+<img src="./images/diagram.jpg" width="80%">
 
 
 ## 使い方
